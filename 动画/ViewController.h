@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    int increment;
+    int previous;
+    int current;
+    BOOL isbool;
+    NSTimer *time;
+}
 
 
 @end
